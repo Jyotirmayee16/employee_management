@@ -1,0 +1,28 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Jyoti",
+      "salary": 300000,
+      "company": "tcs"
+    },
+    {
+      "name": "Omm",
+      "salary": 400000,
+      "company": "wipro",
+      "id": 2
+    },
+    {
+      "name": "Susmita",
+      "salary": "350000",
+      "company": "Infosys",
+      "id": 3
+    },
+    {
+      "name": "Sikha",
+      "salary": "42000",
+      "company": "microland",
+      "id": 4
+    }
+  ]
+}

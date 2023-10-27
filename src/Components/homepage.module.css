@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+     margin: 0;
+}
+
+#nav{
+    height:70px ;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 3px chartreuse;
+}
+
+#myForm{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(245, 191, 122),rgb(177, 228, 238),rgb(144, 97, 134));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myForm>table{
+    height: 250px;
+    width: 280px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(50, 39, 125);
+}
+
+#myForm>table label{
+    color: rgb(87, 13, 13);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+#homeUser{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(232, 116, 241),rgb(221, 223, 224),rgb(86, 237, 227));
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#homeUser>div{
+    height: 200px;
+    width: 220px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(105, 56, 56);
+    
+    
+}
+#homeUser>div:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#homeUser>table{
+    
+   padding: 15px;
+   
+}
+#homeUser>table>tr>td{
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:space-around;
+   align-items: center;
+}
+#homeUser>table>tr>td>button{
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    display: inline-block;
+}
